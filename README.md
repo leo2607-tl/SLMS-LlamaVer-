@@ -1,105 +1,145 @@
-# SIU_LMS_Assistant
+# SIU LMS Assistant
 
-`SIU_LMS_Assistant` là một hệ thống trợ lý AI cho Learning Management System (LMS), sử dụng Retrieval-Augmented Generation (RAG) với Elasticsearch và Qdrant để trả lời câu hỏi dựa trên tài liệu. Dự án sử dụng FastAPI để cung cấp API, `llama_index` và `vllm` cho mô hình ngôn ngữ, cùng một agent logic để điều phối truy vấn.
+SIU LMS Assistant is an AI-powered assistant system for Learning Management System workflows, built on a Retrieval-Augmented Generation architecture that combines Elasticsearch and Qdrant for context-aware question answering over ingested documents.
 
-## Tổng quan
+## Overview
 
-- FastAPI backend cho truy vấn AI
-- Hệ thống RAG kết hợp Elasticsearch + Qdrant
-- Embedding với HuggingFace và LlamaIndex
-- Agent ReAct sử dụng các công cụ truy vấn ngữ cảnh
-- Hỗ trợ ingest tài liệu `.txt` từ thư mục `dataset`
-- Docker Compose nâng cao cho Elasticsearch và Qdrant
+The project is designed to answer user questions based on internal learning materials through a retrieval-first pipeline. It combines document ingestion, embedding generation, hybrid retrieval, language model inference, and agent-based orchestration into a single backend service.
 
-## Kiến trúc chính
+## Features
 
-- `services/api.py` - entry point FastAPI, khởi tạo LLM và agent, cung cấp endpoint `/query`
-- `agent/assistant.py` - định nghĩa `LMS_Assistant`, load tool và agent workflow
-- `config/config.py` - cấu hình hệ thống, endpoint Elasticsearch và Qdrant, model embedding/generation
-- `database/` - kết nối DB và logic ingest
-  - `elasticsearch_database.py` - kết nối và quản lý index Elasticsearch
-  - `qdrant_database.py` - kết nối và quản lý collection Qdrant
-  - `ingest.py` - ingest tài liệu vào Elasticsearch và Qdrant
-- `utils/` - công cụ bổ trợ
-  - `ingestor.py` - đọc file `.txt` từ thư mục dataset và ingest
-  - `elasticsearch_utils.py`, `qdrant_utils.py` - debug / inspect dữ liệu
-- `docker/docker-compose.yml` - cấu hình Elasticsearch và Qdrant service
+- FastAPI backend for AI-powered query handling.
+- Retrieval-Augmented Generation pipeline using Elasticsearch and Qdrant.
+- Embedding-based retrieval with HuggingFace models and LlamaIndex integration.
+- Agent-based workflow for coordinating contextual query tools.
+- Support for ingesting `.txt` documents from a dataset directory.
+- Docker Compose setup for Elasticsearch and Qdrant services.
+- API endpoint for submitting natural language queries.
 
-## Yêu cầu
+## Tech Stack
 
-- Python 3.11+ (hoặc 3.10+)
-- GPU nếu dùng `vllm` và mô hình lớn
-- Docker / Docker Compose (để chạy Elasticsearch + Qdrant)
-- Token Hugging Face nếu dùng model private hoặc cần tải model từ HF
+- Python
+- FastAPI
+- llama_index
+- vLLM
+- Elasticsearch
+- Qdrant
+- HuggingFace
+- Docker Compose
 
-## Cài đặt
+## Architecture
 
-1. Mở thư mục dự án:
-   ```bash
-   cd /home/leo/workspace/SIU_LMS_Assistant
-   ```
-2. Tạo môi trường ảo và kích hoạt:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate
-   ```
-3. Cài dependencies cần thiết (chỉnh theo môi trường nếu cần):
-   ```bash
-   python -m pip install --upgrade pip
-   python -m pip install fastapi uvicorn python-dotenv llama-index transformers vllm qdrant-client elasticsearch numpy
-   ```
+```text
+services/
+└── api.py                      # FastAPI entry point and query endpoint
+agent/
+└── assistant.py                # Assistant logic and agent workflow
+config/
+└── config.py                   # System configuration and model settings
+database/
+├── elasticsearch_database.py   # Elasticsearch integration
+├── qdrant_database.py          # Qdrant integration
+└── ingest.py                   # Data ingestion workflow
+utils/
+├── ingestor.py                 # Reads dataset files and triggers ingestion
+├── elasticsearch_utils.py      # Elasticsearch utilities
+└── qdrant_utils.py             # Qdrant utilities
+docker/
+└── docker-compose.yml          # Elasticsearch and Qdrant services
+```
 
-## Cấu hình môi trường
+## Requirements
 
-Tạo file `.env` trong thư mục gốc với các biến sau:
+- Python 3.10+ or 3.11+
+- Docker and Docker Compose
+- GPU recommended when using larger `vLLM` models
+- Hugging Face token for restricted or externally hosted models when required
+
+## Installation
+
+### 1. Create and activate a virtual environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+### 2. Install dependencies
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install fastapi uvicorn python-dotenv llama-index transformers vllm qdrant-client elasticsearch numpy
+```
+
+## Environment Variables
+
+Create a `.env` file in the project root:
 
 ```bash
 HUGGING_FACE_TOKEN=<your_huggingface_token>
 ```
 
-Nếu bạn muốn sửa đường dẫn cache hoặc model, cập nhật trực tiếp trong `config/config.py`.
+If model paths, cache locations, or system endpoints need to be changed, update the project configuration accordingly.
 
-## Khởi động dịch vụ
+## Running the Services
 
-1. Khởi chạy Elasticsearch và Qdrant:
-   ```bash
-   docker compose -f docker/docker-compose.yml up -d
-   ```
-2. Chạy FastAPI app:
-   ```bash
-   python services/api.py
-   ```
-3. API sẽ lắng nghe mặc định tại:
-   - `http://0.0.0.0:8000`
-4. Gọi endpoint truy vấn:
-   - `POST http://localhost:8000/query`
-   - Body JSON: `{ "query": "Câu hỏi của bạn" }`
+### 1. Start Elasticsearch and Qdrant
 
-## Ingest dữ liệu
+```bash
+docker compose -f docker/docker-compose.yml up -d
+```
 
-- Các tài liệu `.txt` được đặt trong thư mục `dataset`
-- Chạy script ingest:
-  ```bash
-  python utils/ingestor.py
-  ```
-- Script sẽ đọc các file, tạo embedding và lưu vào Elasticsearch + Qdrant.
+### 2. Start the FastAPI service
 
-## Ghi chú
+```bash
+python services/api.py
+```
 
-- `config/config.py` định nghĩa các endpoint:
-  - Elasticsearch: `http://localhost:9200`
-  - Qdrant: `http://localhost:6333`
-  - Chỉ mục / collection mặc định: `leo_lms_assistant`
-- `agent/assistant.py` hiện sử dụng model `meta-llama/Llama-3.1-8B` cho testing và `meta-llama/Llama-3.2-3B` trong FastAPI.
-- Nếu bạn không có GPU, hãy điều chỉnh model hoặc tham số `vllm` cho phù hợp.
+### 3. Default API endpoint
 
-## Mở rộng
+```text
+http://0.0.0.0:8000
+```
 
-- Thêm UI frontend cho người dùng
-- Xây dựng endpoint authentication
-- Bổ sung pipeline ingest hỗ trợ nhiều định dạng tài liệu hơn
-- Thêm dashboard giám sát Elasticsearch / Qdrant
+### 4. Query endpoint
 
-## Liên hệ
+```text
+POST http://localhost:8000/query
+```
 
-- Dự án này là trợ lý AI nội bộ cho LMS, thiết kế để trả lời câu hỏi dựa trên dữ liệu đã được ingest.
+Example request body:
+
+```json
+{ "query": "Your question here" }
+```
+
+## Data Ingestion
+
+Documents in `.txt` format are expected inside the `dataset` directory.
+
+Run the ingestion script with:
+
+```bash
+python utils/ingestor.py
+```
+
+The ingestion pipeline reads the files, generates embeddings, and stores the results in both Elasticsearch and Qdrant.
+
+## Notes
+
+- The project configuration defines the default Elasticsearch and Qdrant endpoints.
+- A shared index or collection is used for storing ingested document representations.
+- Different language model settings may be used for testing and API runtime environments.
+- If GPU resources are limited, model size and inference settings should be adjusted accordingly.
+
+## Future Improvements
+
+- Add a frontend interface for end users.
+- Introduce authentication and access control.
+- Extend the ingestion pipeline to support more document formats.
+- Add monitoring dashboards for retrieval infrastructure.
+- Improve observability for agent and query execution workflows.
+
+## Goal
+
+SIU LMS Assistant is designed to provide a scalable AI assistant for LMS environments by combining retrieval, language generation, and orchestration into a document-grounded question answering platform.
