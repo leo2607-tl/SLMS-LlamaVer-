@@ -1,0 +1,15 @@
+Tạo hoạt động Database
+Bước 1: Nhấn Turn editing on.
+Bước 2: Chọn Add an activity or resource.
+Bước 3: Chọn Database → nhấn Add.
+Bước 4: Nhập Name và mô tả (nếu cần).
+Bước 5: Nhấn Save and display để thiết lập mẫu.
+Bước 6: Nhấn Fields để thêm các trường dữ liệu:
+- Text input
+- File
+- Picture
+- Checkbox
+- Date
+Bước 7: Nhấn Templates để tùy chỉnh giao diện hiển thị.
+Bước 8: Nhấn Save templates.
+Bước 9: Trong mục Add entry, sinh viên/giảng viên có thể nhập dữ liệu.

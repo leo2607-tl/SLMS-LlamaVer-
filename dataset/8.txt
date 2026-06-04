@@ -1,0 +1,7 @@
+Sắp xếp khóa học (Sort Courses)
+Bước 1: Tại trang My Courses, tìm mục Sort by ở góc phải.
+Bước 2: Chọn một kiểu sắp xếp:
+- Last accessed: Mới truy cập gần đây
+- Course name: Theo tên khóa học (A → Z)
+Bước 3: Hệ thống sẽ tự động sắp xếp lại danh sách.
+Bước 4: Nếu cần quay về mặc định, chọn lại tùy chọn ngược lại.

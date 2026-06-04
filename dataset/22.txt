@@ -1,0 +1,15 @@
+Tạo hoạt động Feedback (Thu thập phản hồi)
+Bước 1: Nhấn Turn editing on trong khóa học.
+Bước 2: Chọn một chủ đề → nhấn Add an activity or resource.
+Bước 3: Chọn Feedback → nhấn Add.
+Bước 4: Nhập Name và mô tả nếu cần.
+Bước 5: Tại mục Availability, chọn thời gian mở/đóng của biểu mẫu (nếu muốn).
+Bước 6: Nhấn Save and display để bắt đầu tạo câu hỏi.
+Bước 7: Nhấn Edit questions → Add question.
+Bước 8: Chọn loại câu hỏi:
+- Multiple choice (nhiều lựa chọn)
+- Numeric answer (câu hỏi số)
+- Textfield / Textarea (nhập văn bản)
+- Information (hiển thị thông tin, không phải câu hỏi)
+Bước 9: Nhập nội dung câu hỏi và nhấn Save question.
+Bước 10: Sau khi sinh viên trả lời, xem kết quả ở Analysis hoặc Show responses.

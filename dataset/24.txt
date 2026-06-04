@@ -1,0 +1,12 @@
+Tạo hoạt động Choice (Bình chọn – chọn 1 lựa chọn)
+Bước 1: Nhấn Turn editing on.
+Bước 2: Chọn Add an activity or resource.
+Bước 3: Chọn Choice → nhấn Add.
+Bước 4: Nhập Name và mô tả.
+Bước 5: Trong mục Options, nhập các lựa chọn (Option 1, Option 2, ...).
+Bước 6: Trong Availability, chọn thời gian mở/đóng bình chọn.
+Bước 7: Trong Results, chọn cách hiển thị:
+- Có cho xem kết quả sau khi trả lời không
+- Cho hiển thị danh tính hay ẩn danh
+Bước 8: Nhấn Save and display.
+Bước 9: Xem kết quả bình chọn trong View responses.

@@ -1,0 +1,11 @@
+Tạo đường dẫn URL (Liên kết đến website ngoài)
+Bước 1: Truy cập khóa học → bật Turn editing on.
+Bước 2: Nhấn Add an activity or resource.
+Bước 3: Chọn URL → nhấn Add.
+Bước 4: Nhập Name (ví dụ: “Video bài giảng”).
+Bước 5: Trong mục External URL, dán liên kết website.
+Bước 6: Trong Appearance, chọn cách mở:
+- Open (mở tab mới)
+- Embedded (hiển thị ngay trong LMS)
+Bước 7: Nhấn Save and return to course.
+Bước 8: Kiểm tra bằng cách nhấn vào URL để đảm bảo liên kết hoạt động.

@@ -1,0 +1,8 @@
+Xem nội dung Dashboard
+Bước 1: Đăng nhập vào hệ thống LMS tại địa chỉ https://lms.siu.edu.vn
+Bước 2: Sau khi đăng nhập, giao diện Dashboard xuất hiện mặc định.
+Bước 3: Quan sát thanh Navigation ở bên trái để truy cập các mục như Dashboard, My Courses, Calendar,...
+Bước 4: Kiểm tra mục Recently accessed để xem những khóa học/hoạt động truy cập gần nhất.
+Bước 5: Kiểm tra mục Timeline để xem các hoạt động sắp đến hạn (quiz, assignment...).
+Bước 6: Kiểm tra Calendar để xem lịch cá nhân hoặc khóa học.
+Bước 7: Nhấn vào hoạt động hoặc khóa học bất kỳ để truy cập trực tiếp.

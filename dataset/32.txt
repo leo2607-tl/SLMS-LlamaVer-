@@ -1,0 +1,9 @@
+Tái sử dụng tài nguyên (Server files / Recent files)
+Bước 1: Khi tạo File, Folder hoặc Page → đến phần Select files.
+Bước 2: Nhấn Add... → chọn nguồn:
+- Recent files: các file đã tải gần đây
+- Server files: tài nguyên đã tải vào hệ thống (trong các khóa học khác)
+- Private files: thư mục cá nhân
+Bước 3: Chọn file muốn tái sử dụng → nhấn Select this file.
+Bước 4: Kiểm tra lại file được chèn đúng.
+Bước 5: Nhấn Save and return để hoàn tất.

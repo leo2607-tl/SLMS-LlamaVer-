@@ -1,0 +1,13 @@
+Tạo trang nội dung (Page)
+Bước 1: Truy cập khóa học → bật Turn editing on.
+Bước 2: Nhấn Add an activity or resource.
+Bước 3: Chọn Page → nhấn Add.
+Bước 4: Nhập Name.
+Bước 5: Trong Content → Page content, nhập nội dung bằng trình soạn thảo:
+- Văn bản
+- Ảnh
+- Video nhúng
+- Liên kết
+Bước 6: Dùng toolbar để định dạng chữ, chèn hình, nhúng video YouTube,...
+Bước 7: Nhấn Save and display để xem trang.
+Bước 8: Chỉnh sửa lại (nếu cần) bằng cách nhấn Edit → Edit settings.

@@ -1,0 +1,15 @@
+Tạo hoạt động Attendance (Điểm danh)
+
+Bước 1: Nhấn Turn editing on.
+Bước 2: Tại phần nội dung khóa học, nhấn Add an activity or resource.
+Bước 3: Chọn Attendance → nhấn Add.
+Bước 4: Nhập Name (ví dụ: Attendance – Điểm danh).
+Bước 5: Nhấn Save and display.
+Bước 6: Trong trang Attendance, nhấn Add session.
+Bước 7: Thiết lập buổi học:
+- Date: Ngày
+- Time: Giờ
+- Session type: Buổi học của khóa hay nhóm
+Bước 8: Trong mục Create multiple sessions, có thể tạo nhiều buổi theo lịch cố định.
+Bước 9: Nhấn Save changes.
+Bước 10: Để điểm danh, mở buổi học → chọn trạng thái cho từng sinh viên.

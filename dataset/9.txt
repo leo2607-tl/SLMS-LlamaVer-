@@ -1,0 +1,6 @@
+Xem báo cáo điểm (Grader Report)
+Bước 1: Vào khóa học cần xem điểm.
+Bước 2: Trên thanh điều hướng, chọn Grades.
+Bước 3: Chọn Grader report để xem danh sách toàn bộ sinh viên và điểm từng hoạt động.
+Bước 4: Cuộn ngang để xem điểm đầy đủ cho tất cả hoạt động.
+Bước 5: Nhấn vào tên hoạt động để xem chi tiết điểm của hoạt động đó.

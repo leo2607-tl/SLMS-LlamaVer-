@@ -1,0 +1,13 @@
+Tạo tài liệu dạng sách (Book)
+Bước 1: Nhấn Turn editing on.
+Bước 2: Chọn Add an activity or resource.
+Bước 3: Chọn Book → nhấn Add.
+Bước 4: Nhập Name và mô tả.
+Bước 5: Trong mục Appearance, chọn cách hiển thị chương:
+- Có số chương tự động không
+- Định dạng mục lục
+Bước 6: Nhấn Save and display.
+Bước 7: Nhập Chapter title và nội dung chương đầu tiên.
+Bước 8: Nhấn Save changes để tạo.
+Bước 9: Nhấn Add new chapter để tạo thêm các chương khác.
+Bước 10: Chỉnh sửa/tái sắp xếp các chương bằng mũi tên hoặc kéo–thả.

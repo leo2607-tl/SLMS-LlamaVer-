@@ -1,0 +1,19 @@
+Tạo nhóm trong khóa học (Groups & Groupings)
+Bước 1: Trong khóa học, nhấn Participants trên thanh menu.
+Bước 2: Nhấn Groups ở góc phải.
+Bước 3: Nhấn Create group → nhập tên nhóm → Save changes.
+Bước 4: Chọn nhóm vừa tạo → nhấn Add/remove users.
+Bước 5: Chọn sinh viên trong danh sách → nhấn Add để đưa vào nhóm.
+Bước 6: Lặp lại nếu cần tạo nhiều nhóm.
+
+Tạo Grouping (nhóm của các nhóm)
+Bước 7: Nhấn tab Groupings.
+Bước 8: Nhấn Create grouping → đặt tên → Save.
+Bước 9: Nhấn biểu tượng Assign để thêm các nhóm vào grouping.
+
+Kích hoạt nhóm trong khóa học
+Bước 10: Trở lại khóa học → Settings.
+Bước 11: Trong mục Group mode, chọn:
+- Separate groups: nhóm tách biệt
+- Visible groups: nhóm nhìn thấy nhau
+Bước 12: Nhấn Save and display.

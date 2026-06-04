@@ -1,0 +1,7 @@
+Xem Timeline (Các hoạt động sắp đến hạn)
+Bước 1: Tại Dashboard, tìm mục Timeline.
+Bước 2: Chọn bộ lọc hiển thị:
+- Sort by dates để xem theo thời gian,
+- Sort by courses để xem theo từng môn học.
+Bước 3: Nhấn vào một hoạt động bất kỳ trong Timeline để mở trực tiếp hoạt động đó.
+Bước 4: Nếu muốn ẩn Timeline, nhấn Customize this page → Ẩn khối Timeline.

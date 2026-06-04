@@ -1,0 +1,6 @@
+Chấm và chỉnh sửa điểm (Grading & Grade Editing)
+Bước 1: Vào khóa học → chọn Grades.
+Bước 2: Chọn Grader report hoặc Single view theo nhu cầu.
+Bước 3: Tại cột điểm của sinh viên, nhấn vào ô điểm cần sửa.
+Bước 4: Nhập điểm mới và nhấn Save changes.
+Bước 5: Nếu muốn khóa điểm (lock), chọn More → Lock grade.

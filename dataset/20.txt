@@ -1,0 +1,20 @@
+Giao và thu bài tập (Assignment)
+Bước 1: Nhấn Turn editing on.
+Bước 2: Chọn Add an activity or resource.
+Bước 3: Chọn Assignment → nhấn Add.
+Bước 4: Nhập:
+- Name: Tên bài tập
+- Description: Hướng dẫn nộp bài
+Bước 5: Mở rộng phần Availability, thiết lập thời gian:
+- Allow submissions from: mở nộp bài
+- Due date: hạn chót
+- Cut-off date: hạn cuối cùng
+Bước 6: Trong mục Submission types, chọn hình thức:
+- File submissions (nộp file)
+- Online text (viết trực tiếp)
+Bước 7: Trong Feedback types, chọn loại phản hồi:
+- Feedback comments
+- Feedback files
+Bước 8: Trong Grade, chọn thang điểm (10, 100…), phương thức chấm.
+Bước 9: Nhấn Save and display.
+Bước 10: Sau khi sinh viên nộp, vào View all submissions để chấm.

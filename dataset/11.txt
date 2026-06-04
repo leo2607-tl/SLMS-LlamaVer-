@@ -1,0 +1,6 @@
+Thêm điểm thành phần (Add Grade Item)
+Bước 1: Vào khóa học → chọn Grades.
+Bước 2: Chọn Gradebook setup.
+Bước 3: Nhấn Add grade item.
+Bước 4: Nhập thông tin: Tên cột điểm, điểm tối đa, phương thức tính.
+Bước 5: Nhấn Save and return để tạo cột điểm mới.

@@ -1,0 +1,6 @@
+Tùy chỉnh bố cục Dashboard (Customize Layout)
+Bước 1: Ở giao diện Dashboard, nhấn “Customize this page” (Tùy chỉnh trang này).
+Bước 2: Trong chế độ tùy chỉnh, nhấn “Add a block” để thêm khối mới (Calendar, Online users, Activities...).
+Bước 3: Nhấp vào biểu tượng ⚙️ trên từng khối để chỉnh sửa hoặc xóa khối.
+Bước 4: Giữ và kéo–thả khối để sắp xếp lại vị trí theo mong muốn.
+Bước 5: Sau khi chỉnh sửa xong, nhấn “Stop customizing this page” để lưu bố cục.

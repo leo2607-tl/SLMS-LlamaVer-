@@ -1,0 +1,11 @@
+Tạo thư mục chứa nhiều tệp (Folder)
+Bước 1: Trong khóa học, nhấn Turn editing on.
+Bước 2: Nhấn Add an activity or resource tại chủ đề mong muốn.
+Bước 3: Chọn Folder → nhấn Add.
+Bước 4: Nhập Name (Ví dụ: “Tài liệu tham khảo”).
+Bước 5: Trong mục Select files, tải lên nhiều tệp bằng cách:
+- Kéo–thả nhiều file cùng lúc
+- Hoặc nhấn Add → Upload a file, lặp lại nhiều lần
+Bước 6: Để tạo thư mục con, nhấn Create folder → đặt tên → kéo file vào thư mục đó.
+Bước 7: Nhấn Save and return to course.
+Bước 8: Kiểm tra hiển thị bằng cách mở thử thư mục.

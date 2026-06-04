@@ -1,0 +1,20 @@
+Tạo hoạt động Quiz
+Bước 1: Bật chế độ chỉnh sửa bằng cách nhấn Turn editing on.
+Bước 2: Chọn chủ đề (Topic/Week) muốn thêm hoạt động.
+Bước 3: Nhấn Add an activity or resource.
+Bước 4: Chọn Quiz → nhấn Add.
+Bước 5: Nhập các thông tin quan trọng:
+- Name: Tên bài kiểm tra
+- Description: Mô tả (tùy chọn)
+Bước 6: Mở rộng mục Timing, thiết lập:
+- Open/Close quiz: thời gian mở – đóng
+- Time limit: thời gian làm bài
+Bước 7: Trong Grade, thiết lập:
+- Grade to pass: điểm đạt
+- Attempts allowed: số lần làm bài
+Bước 8: Trong Question behavior, chọn:
+- Shuffle within questions: xáo đáp án
+- Deferred Feedback: không biết đúng sai đến khi nộp bài
+Bước 9: Nhấn Save and display.
+Bước 10: Nhấn Edit quiz → Add a new question để thêm câu hỏi.
+Bước 11: Chọn loại câu hỏi (Multiple choice, Essay, True/False...) và cấu hình từng câu.

@@ -1,0 +1,5 @@
+Xem và truy cập nhanh các khóa học gần đây
+Bước 1: Tại Dashboard, cuộn xuống phần Recently accessed courses.
+Bước 2: Xem danh sách 4–6 khóa học mà bạn vừa truy cập trước đó.
+Bước 3: Nhấn vào tên khóa học để truy cập nhanh.
+Bước 4: Nếu khóa học không hiển thị, nhấn “View all courses” để mở danh sách đầy đủ.

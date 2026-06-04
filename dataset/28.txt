@@ -1,0 +1,13 @@
+Tải tệp tin (File)
+Bước 1: Truy cập khóa học → nhấn Turn editing on.
+Bước 2: Chọn một chủ đề → nhấn Add an activity or resource.
+Bước 3: Chọn File → nhấn Add.
+Bước 4: Nhập Name (ví dụ: “Giáo trình chương 1”).
+Bước 5: Ở mục Select files, có 2 cách tải tệp:
+- Kéo thả file trực tiếp vào khung
+- Nhấn Add → Upload a file → Choose file → chọn file → Upload this file
+Bước 6: Trong Appearance, chọn:
+- Hiển thị trong tab mới (Open)
+- Tải về trực tiếp (Force download)
+Bước 7: Nhấn Save and return to course.
+Bước 8: Kiểm tra bằng cách nhấn vào file để đảm bảo đã tải đúng.

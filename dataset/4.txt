@@ -1,0 +1,9 @@
+Xem và quản lý Calendar (Lịch học & sự kiện)
+Bước 1: Ở Dashboard, tìm và mở khối Calendar.
+Bước 2: Nhấn “New event” để tạo sự kiện mới.
+Bước 3: Nhập thông tin sự kiện gồm:
+- Tên sự kiện (Event title)
+- Thời gian (Date & Time)
+- Loại sự kiện (Event type: User, Course, Group, Site)
+Bước 4: Nhấn Save để lưu sự kiện.
+Bước 5: Quan sát lịch để xem sự kiện vừa tạo và các hoạt động được hệ thống tự đồng bộ.

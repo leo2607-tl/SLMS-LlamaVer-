@@ -1,0 +1,12 @@
+Tạo khảo sát (Survey)
+Bước 1: Nhấn Turn editing on.
+Bước 2: Tại chủ đề mong muốn → Add an activity or resource.
+Bước 3: Chọn Survey → nhấn Add.
+Bước 4: Nhập Name và mô tả.
+Bước 5: Tại trường Survey type, chọn mẫu khảo sát:
+- COLLES (Preferred)
+- COLLES (Actual)
+- COLLES (Preferred and Actual)
+- ATTLS (20-item)
+Bước 6: Nhấn Save and display để phát hành khảo sát.
+Bước 7: Xem kết quả khảo sát bằng cách nhấn View Reports.

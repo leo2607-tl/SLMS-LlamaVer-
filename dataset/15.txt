@@ -1,0 +1,10 @@
+Báo cáo hoạt động khóa học (Course Activity Reports)
+Bước 1: Vào khóa học → mở menu More.
+Bước 2: Chọn Reports.
+Bước 3: Chọn loại báo cáo:
+- Activity report – tần suất truy cập
+- Participation report – mức độ tham gia của sinh viên
+- Logs – lịch sử hoạt động
+Bước 4: Chọn bộ lọc theo sinh viên, hoạt động hoặc thời gian.
+Bước 5: Nhấn View report để xem kết quả.
+Bước 6: Xuất dữ liệu bằng Download nếu cần.

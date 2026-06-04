@@ -1,0 +1,7 @@
+Tính điểm tổng kết (Course Total)
+Bước 1: Trong Gradebook setup, tìm dòng Course total.
+Bước 2: Nhấn biểu tượng ⚙️ Edit.
+Bước 3: Chọn phương thức tính điểm tổng (Weighted, Natural...).
+Bước 4: Nhập trọng số (nếu dùng Weighted).
+Bước 5: Lưu lại bằng Save changes.
+Bước 6: Kiểm tra lại hiển thị điểm tổng của từng sinh viên trong Grader report.

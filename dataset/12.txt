@@ -1,0 +1,8 @@
+Tạo nhóm điểm (Add Category)
+Bước 1: Trong Gradebook setup, nhấn Add category.
+Bước 2: Nhập tên nhóm điểm (ví dụ: Quá trình, Giữa kỳ, Cuối kỳ).
+Bước 3: Chọn phương thức tính điểm:
+- Natural
+- Weighted mean of grades
+Bước 4: Nhấn Save changes.
+Bước 5: Kéo–thả các cột điểm vào nhóm bạn vừa tạo.

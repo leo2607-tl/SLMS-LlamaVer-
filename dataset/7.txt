@@ -1,0 +1,11 @@
+Lọc khóa học (Filter Courses)
+Bước 1: Trên thanh menu trái, chọn My Courses (Khoá học của tôi).
+Bước 2: Ở phía trên danh sách khóa học, chọn mục Filter.
+Bước 3: Chọn một trong các bộ lọc:
+- In Progress: Khóa học đang học
+- Future: Khóa học sắp diễn ra
+- Past: Khóa học đã kết thúc
+- Starred: Khóa học đánh dấu sao
+- Hidden: Khóa học đã ẩn
+Bước 4: Danh sách khóa học sẽ tự động hiển thị theo bộ lọc bạn đã chọn.
+Bước 5: Nhấn lại Filter → All để hiển thị toàn bộ khóa học.

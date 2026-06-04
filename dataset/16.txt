@@ -1,0 +1,11 @@
+Chọn định dạng hiển thị bài học (Course Format)
+Bước 1: Truy cập vào khóa học cần chỉnh.
+Bước 2: Trên thanh menu, nhấn Settings (Cài đặt khóa học).
+Bước 3: Cuộn xuống mục Course format.
+Bước 4: Tại trường Format, chọn 1 trong các dạng:
+- Weekly format: Chia theo tuần dựa trên ngày bắt đầu – kết thúc khóa học.
+- Topics format: Chia theo chủ đề (Topic 1, Topic 2…).
+- Single activity format: Khóa học chỉ có 1 hoạt động duy nhất (Quiz, SCORM,...).
+- Social format: Dạng diễn đàn làm trung tâm khóa học.
+Bước 5: Tại trường Number of sections, chọn số tuần hoặc số chủ đề mong muốn.
+Bước 6: Cuộn xuống dưới và nhấn Save and display để áp dụng thay đổi.

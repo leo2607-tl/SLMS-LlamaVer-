@@ -1,0 +1,8 @@
+Tùy chỉnh hiển thị khóa học (Card/List/Summary view)
+Bước 1: Ở Dashboard → đến phần My Courses.
+Bước 2: Nhấn vào biểu tượng ⚙️ hoặc Display options góc phải.
+Bước 3: Chọn kiểu hiển thị:
+- Card view: hiển thị dạng thẻ có ảnh đại diện,
+- List view: hiển thị dạng danh sách,
+- Summary view: hiển thị mô tả ngắn của khoá học.
+Bước 4: Hệ thống tự lưu hiển thị bạn đã chọn.

@@ -1,0 +1,13 @@
+Tạo hoạt động Wiki (Tài liệu cộng tác)
+Bước 1: Bật Turn editing on.
+Bước 2: Trong chủ đề → nhấn Add an activity or resource.
+Bước 3: Chọn Wiki → nhấn Add.
+Bước 4: Nhập Name và mô tả.
+Bước 5: Trong Wiki mode, chọn:
+- Collaborative: Nhiều người chỉnh sửa chung
+- Individual: Mỗi sinh viên có wiki riêng
+Bước 6: Nhập tên trang đầu tiên (First page name).
+Bước 7: Nhấn Save and display.
+Bước 8: Nhấn Create page để tạo trang đầu tiên.
+Bước 9: Sử dụng Edit để chỉnh sửa nội dung.
+Bước 10: Sinh viên có thể truy cập và cùng chỉnh sửa nếu là Collaborative.

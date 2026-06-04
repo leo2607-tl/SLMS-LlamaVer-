@@ -1,0 +1,8 @@
+Quản lý danh hiệu (Badges)
+Bước 1: Vào khóa học → nhấn More trên thanh menu.
+Bước 2: Chọn Badges.
+Bước 3: Nhấn Add a new badge.
+Bước 4: Nhập hình ảnh, tên và mô tả của badge.
+Bước 5: Chọn Criteria để thiết lập điều kiện nhận badge (hoàn thành hoạt động, điểm tối thiểu…).
+Bước 6: Nhấn Enable badge để kích hoạt.
+Bước 7: Theo dõi sinh viên nhận badge trong mục Recipients.

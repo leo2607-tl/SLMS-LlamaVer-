@@ -1,0 +1,17 @@
+Tạo hoạt động Workshop (Chấm chéo sinh viên)
+Bước 1: Nhấn Turn editing on.
+Bước 2: Nhấn Add an activity or resource.
+Bước 3: Chọn Workshop → nhấn Add.
+Bước 4: Nhập Name và mô tả.
+Bước 5: Tại Grading settings, thiết lập:
+- Điểm nộp bài (Submission grade)
+- Điểm chấm bài (Assessment grade)
+Bước 6: Tại Submission settings, thiết lập yêu cầu bài nộp.
+Bước 7: Tại Assessment settings, thiết lập tiêu chí chấm điểm.
+Bước 8: Nhấn Save and display.
+Bước 9: Workshop có 4 giai đoạn, bạn phải chuyển thủ công:
+- Setup phase → tạo cấu hình
+- Submission phase → sinh viên nộp bài
+- Assessment phase → sinh viên chấm chéo
+- Grading evaluation → giảng viên tổng hợp điểm
+Bước 10: Khi hoàn thành, chuyển sang Closed phase để kết thúc hoạt động.

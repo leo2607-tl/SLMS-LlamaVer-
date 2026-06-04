@@ -1,0 +1,14 @@
+Tạo Glossary (Kho từ vựng)
+Bước 1: Mở khóa học → bật Turn editing on.
+Bước 2: Nhấn Add an activity or resource.
+Bước 3: Chọn Glossary → nhấn Add.
+Bước 4: Nhập Name và mô tả.
+Bước 5: Trong Entries, chọn:
+- Cho phép sinh viên thêm mục mới
+- Cho phép sinh viên chỉnh sửa sau khi thêm
+Bước 6: Trong Appearance, thiết lập:
+- Cách hiển thị danh sách
+- Số mục hiển thị mỗi trang
+Bước 7: Nhấn Save and display.
+Bước 8: Nhấn Add a new entry để thêm từ vựng đầu tiên.
+Bước 9: Sinh viên có thể thêm bài viết nếu được cấp quyền.
